@@ -3,9 +3,11 @@
 @import url(http://fonts.googleapis.com/css?family=Droid+Sans);
 @import url(http://fonts.googleapis.com/css?family=Droid+Serif);
 
-body {background: #EEEEEE url(dt-logo-trans-40.png) 20px 30px no-repeat; color:#666; font-family: 'Droid Serif' serif;}
+body { color:#222; font-family: 'Droid Serif' serif;}
 
 #preso{}
-.slide {}
+.slide {background: url(dt-logo-trans-40.png) 851px 0px no-repeat;}
+.slide:before{position: absolute; content:"We're hiring"; font-family: 'Gloria Hallelujah', cursive; margin-left:884px;margin-top:40px; }/**/
+
 .handwritting{font-family:'Gloria Hallelujah', cursive;}
- h1, h2, h3, h4, h5 {font-family: 'Droid Sans' san-serif; }
+ h1, h2, h3, h4, h5 {font-family: 'Andika' san-serif; }
