@@ -7,3 +7,4 @@
   javascript function
 * Better understand jQuery.proxy() & Protoype's bind
 
+!SLIDE 
