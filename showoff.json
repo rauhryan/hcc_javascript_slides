@@ -2,7 +2,8 @@
   "name" : "Conjunction junction",
   "description" : "All bout the javascripts",
   "sections" : [
-    { "section" :"intro" },
-    { "section" : "about_me" }
+    { "section" :"intro" }
+    ,{ "section" : "about_me" }
+    ,{ "section" : "goals" }
   ]
 }
