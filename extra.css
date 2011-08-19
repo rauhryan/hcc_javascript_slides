@@ -2,15 +2,33 @@
 @import url(http://fonts.googleapis.com/css?family=Andika);
 @import url(http://fonts.googleapis.com/css?family=Droid+Sans);
 @import url(http://fonts.googleapis.com/css?family=Droid+Serif);
+@import url(content/styles/style.css);
 
-body { color:#222; font-family: 'Droid Serif' serif;}
+html{ height: 100%;}
+body {
+  background-color: #999999;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#999999), to(#888888)); /* Saf4+, Chrome */
+  background-image: -webkit-linear-gradient(top, #999999, #888888); /* Chrome 10+, Saf5.1+ */
+  background-image:    -moz-linear-gradient(top, #999999, #888888); /* FF3.6 */
+  background-image:     -ms-linear-gradient(top, #999999, #888888); /* IE10 */
+  background-image:      -o-linear-gradient(top, #999999, #888888); /* Opera 11.10+ */
+  background-image:         linear-gradient(top, #999999, #888888);
+            filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#999999', EndColorStr='#888888'); /* IE6–IE9 */
+
+}
 
 #preso{}
 .slide {background: url(dt-logo-trans-40.png) 851px 0px no-repeat;}
 .slide:before{position: absolute; content:"We're hiring"; font-family: 'Gloria Hallelujah', cursive; margin-left:884px;margin-top:40px; }/**/
 
 .handwritting{font-family:'Gloria Hallelujah', cursive;}
- h1, h2, h3, h4, h5 {font-family: 'Andika' san-serif; }
+
 
 .smallest {font-size:50%;}
+
+.incremental ul li {
+	text-align: left;
+	margin: 0 140px;
+	list-style: disc;
+}
 

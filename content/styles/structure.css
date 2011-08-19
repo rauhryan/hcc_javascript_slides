@@ -1,0 +1,123 @@
+/* *Structure.css / Site Structure* */
+/* Created by Stewart Hines 1-10-2011 */
+
+
+/* Mod Block System */
+/* From Team Wimgo */
+.mod{margin: 10px;} 
+.mod-ext{ padding:10px}
+.hd,.bd,.ft{overflow:hidden;_overflow:visible; _zoom:1;}
+.ft{ padding:10px 0;}
+.hd{ padding-bottom:10px}
+.inner{position:relative;}
+.mod-vert{margin:10px 0;} /* add margin to only top and btm */
+.mod-horiz{margin:0 10px;} /* add margin to only left and right */
+.f-left{ float:left; clear:none;}
+.f-right{ float:right; clear:none;}
+.hide {display: none;}
+.center{margin:0 auto;}
+.center-screen {position:absolute; top:35%;}
+
+/* Navigation Structure */
+.navigation{ padding:0; margin-right:30px; }
+.navigation ul{ padding:0; list-style: none;}
+.navigation li{ float:left; text-transform:uppercase; list-style: none; margin: 0 5px; padding: 0 5px; }
+.navigation li a, .navigation li a:hover {  
+	display: inline-block; 
+		 *display:block; 
+		 
+		 font-family: "LeagueGothicRegular"; 
+		 
+		 font-size:2.0em;
+		 line-height:120%;
+        
+		 margin: 0px;
+		 padding:0px;
+		 list-style: none;
+		 text-decoration:none;
+		 text-transform:uppercase; }
+
+/* Account Information Structure */
+.account-wrapper{margin-right:40px; margin-top:-10px; }
+ul.account{ padding:0; list-style: none; margin:0; overflow:hidden;}
+.account li{ float:left; list-style: none;  padding: 5px; text-transform:capitalize; font-size:9pt; font-weight:bold;}
+.account li a, .navigation li a:hover {  
+	display: inline-block; 
+		 *display:block; 
+		 margin: 0px;
+		 padding:0px;
+		 list-style: none;
+		 text-decoration:none;
+}
+.account li:first-child:after{content:''; text-indent:-999em;  border-right:1px solid #333; margin-left:  10px;}
+
+		 
+/*
+
+.logo a {
+	width:300px;
+	height:50px;
+
+}
+*/
+
+	 /* Text Structure */
+	 h1 {font-size: 2.5em; color: #333; /* font-family: "LeagueGothicRegular"; */ margin: 5px 0;}
+	 h2 {font-size: 2.2em; /* font-family: "LeagueGothicRegular"; */ margin: 5px 0;}
+	 h3 {font-size: 1.6em; /* font-family: "LeagueGothicRegular"; */ margin: 5px 0;}
+	 h4 {font-size: 1.5em; font-weight: bold; margin: 5px 0;}
+	 h5 {font-size: 1.4em; font-weight: bold; margin: 5px 0;}
+	 h6 {font-size: 1.2em; font-weight: bold; margin: 5px 0;}
+
+
+
+	 .txt-c {text-align: center;}
+
+	 .txt-l {text-align: left;}
+
+	 .txt-r {text-align: right;}
+
+	 p {line-height: 1.571em; margin: 5px 0;}
+	 p + p {margin-top: 15px;}
+	 .list-basic p{line-height:1;}
+	 /* Disabled till I figure out what form element markup will be
+        p + p {text-indent:1.571em;} 
+      */
+	
+
+	
+
+
+
+	 /* tables */
+	 thead td {height: 20px; padding:5px 10px;  vertical-align: middle; }
+
+	 thead tr {width: 100px;}
+
+	 tr, td {padding: 5px 10px;}
+
+	 /* Forms */
+
+	 .form-text, .form-textarea, .searchfield {
+		 font-family: HelveticaNeue, "Helvetica Neue", Helvetica, Arial, sans-serif;
+		 font-size: 1em;
+		 border: 2px solid #E9E9E9;
+		 border-left: 2px solid #DDD;
+		 border-top: 2px solid #DDD;
+}
+
+.form-text {
+	width: 96%; 
+	padding: 5px;
+}
+
+.form-textarea{
+	width:96%;
+	padding: 5px;
+	min-height: 150px;
+}
+
+.form-label {
+	font-family: 'LeagueGothicRegular';
+	font-size: 1.5em;
+}

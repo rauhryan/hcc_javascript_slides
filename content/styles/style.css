@@ -1,0 +1,242 @@
+/* *Style.css / visual styles* */
+/* Created by Stewart Hines 1-10-2011 */
+
+/* Default Styles */
+body { font-size: 0.875em; margin:0; padding:0; /*overflow-x: hidden;*/ font-family: HelveticaNeue, "Helvetica Neue", Helvetica, Arial, sans-serif; }
+
+/* Text Styles */
+.color0{color: #fff;} /* white */
+.color1, .blog-post {color: #666;} /* default gray, default body text color */
+.color2, body {color: #333;} /* dark gray, used on headers */
+.color3, a, .quote, .navigation li a {color: #0473b5;} /* Dark Blue, used for links, decritive quotes, and default footer color */
+.color4, a:visited, .navigation li .active  a {color: #64a9d2;} /* Light blue, used for link hovers and link visted states */
+.color5 {color: #aaa;} /* light gray, used inside of form fields to denote editable text to users. */
+.color6, a:hover, .navigation li a:hover {color: #00aeef;} /* Cyan - used for link hovers */
+
+@font-face {
+    font-family: 'SansationRegular';
+    src: url('../type/Sansation_Regular-webfont.eot');
+    src: url('../type/Sansation_Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../type/Sansation_Regular-webfont.ttf') format('truetype'),
+         url('../type/Sansation_Regular-webfont.woff') format('woff'),
+         url('../type/Sansation_Regular-webfont.svg#SansationRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'SansationLight';
+    src: url('../type/Sansation_Light-webfont.eot');
+    src: url('../type/Sansation_Light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../type/Sansation_Light-webfont.ttf') format('truetype'),
+         url('../type/Sansation_Light-webfont.woff') format('woff'),
+         url('../type/Sansation_Light-webfont.svg#SansationLight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'SansationBold';
+    src: url('../type/Sansation_Bold-webfont.eot');
+    src: url('../type/Sansation_Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../type/Sansation_Bold-webfont.ttf') format('truetype'),
+         url('../type/Sansation_Bold-webfont.woff') format('woff'),
+         url('../type/Sansation_Bold-webfont.svg#SansationBold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+	/* League Gothic Regular */
+	font-family: 'LeagueGothicRegular';
+	src: url('../type/League_Gothic-webfont.eot');
+	src: local('☺'), 
+	    url('../type/League_Gothic-webfont.ttf') format('truetype'), 
+	    url('../type/League_Gothic-webfont.woff') format('woff'), 
+	    url('../type/League_Gothic-webfont.svg#webfontFHzvtkso') format('svg');
+	font-weight: light;
+	font-style: normal;
+}
+
+@font-face {
+	/* Volkorn */
+	font-family: '../type/VollkornRegular';
+	src: url('Vollkorn-Regular-webfont.eot');
+	src: local('☺'), 
+	    url('../type/Vollkorn-Regular-webfont.ttf') format('truetype'),
+	    url('../type/Vollkorn-Regular-webfont.woff') format('woff'), 
+	    url('../type/Vollkorn-Regular-webfont.svg#webfontNg8SQWLd') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'VollkornBold';
+	src: url('../type/Vollkorn-Bold-webfont.eot');
+	src: local('☺'), 
+	    url('../type/Vollkorn-Bold-webfont.ttf') format('truetype'),
+	    url('../type/Vollkorn-Bold-webfont.woff') format('woff'), 
+	    url('../type/Vollkorn-Bold-webfont.svg#webfontJxRRhfTP') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'VollkornItalic';
+	src: url('../type/Vollkorn-Italic-webfont.eot');
+	src: local('☺'), 
+	    url('../type/Vollkorn-Italic-webfont.ttf') format('truetype'), 
+	    url('../type/Vollkorn-Italic-webfont.woff') format('woff'), 
+	    url('../type/Vollkorn-Italic-webfont.svg#webfontDzVwoiMp') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'VollkornBoldItalic';
+	src: url('../type/Vollkorn-BoldItalic-webfont.eot');
+	src: local('☺'), 
+	url('../type/Vollkorn-BoldItalic-webfont.ttf') format('truetype'), 
+	url('../type/Vollkorn-BoldItalic-webfont.woff') format('woff'),
+	url('../type/Vollkorn-BoldItalic-webfont.svg#webfontDwvVGCpS') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	/* Edition Regular */
+	font-family: 'EditionRegular';
+	src: url('../type/edition_-webfont.eot');
+	src: local('☺'), 
+	    url('../type/edition_-webfont.ttf') format('truetype'), 
+	    url('../type/edition_-webfont.woff') format('woff'), 
+	    url('../type/edition_-webfont.svg#webfontQLg31HUI') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	/* Acknowledgement Medium */
+	font-family: 'AcknowledgementMedium';
+	src: url('../type/Acknowledgement-webfont.eot');
+	src: local('☺'), 
+	    url('../type/Acknowledgement-webfont.ttf') format('truetype'), 
+	    url('../type/Acknowledgement-webfont.woff') format('woff'), 
+	    url('../type/Acknowledgement-webfont.svg#webfontuCYqM11k') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+
+/* Font Class */
+
+.font-league {
+	font-family: 'LeagueGothicRegular';
+	src: url('../type/League_Gothic-webfont.eot');
+	src: local('☺'),  url('../type/League_Gothic-webfont.ttf') format('truetype'), url('../type/League_Gothic-webfont.woff') format('woff'), url('../type/League_Gothic-webfont.svg#webfontFHzvtkso') format('svg');
+	font-weight: light;
+	font-style: normal;
+}
+
+.font-vollkorn {
+	font-family: 'VollkornRegular';
+	src: url('Vollkorn-Regular-webfont.eot');
+	src: local('☺'), url('Vollkorn-Regular-webfont.woff') format('woff'), url('Vollkorn-Regular-webfont.ttf') format('truetype'), url('Vollkorn-Regular-webfont.svg#webfontNg8SQWLd') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+.font-edition{
+	font-family: 'EditionRegular';
+	src: url('../type/edition_-webfont.eot');
+	src: local('☺'), url('../type/edition_-webfont.woff') format('woff'), url('../type/edition_-webfont.ttf') format('truetype'), url('../type/edition_-webfont.svg#webfontQLg31HUI') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+.font-sansation {
+    font-family: 'SansationRegular';
+    src: url('../type/Sansation_Regular-webfont.eot');
+    src: url('../type/Sansation_Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../type/Sansation_Regular-webfont.woff') format('woff'),
+         url('../type/Sansation_Regular-webfont.ttf') format('truetype'),
+         url('../type/Sansation_Regular-webfont.svg#SansationRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+a { font-weight: bold; text-decoration: none; }
+a:hover, .navigation li a:hover {text-decoration: underline;}
+.navigation li .active  a, a.active {text-decoration: underline;}
+
+
+/* social icons */
+
+/* 16px icons */
+.spritex16{background:url(../images/sm_spritex16.png); text-indent: -777777px;}
+
+.twitter16{background-position:0px 0px;}
+.twitter16:hover{background-position: 0px 16px;}
+
+.tweet16{background-position:-16px 0px;}
+.tweet16:hover{background-position: -16px 16px;}
+
+.flickr16{background-position:-32px 0px;}
+.flickr16:hover{background-position: -32px 16px;}
+
+.facebook16{background-position:-48px 0px;}
+.facebook16:hover{background-position: -48px 16px;}
+
+.youtube16{background-position:-64px 0px;}
+.youtube16:hover{background-position: -64px 16px;}
+
+.vimeo16{background-position:-80px 0px;}
+.vimeo16:hover{background-position: -80px 16px;}
+
+.google16{background-position:-96px 0px;}
+.google16:hover{background-position: -96px 16px;}
+
+.rss16{background-position:-113px 0px;}
+.rss16:hover{background-position: -113px 16px;}
+
+.email16{background-position:-129px 0px;}
+.email16:hover{background-position: -129px 16px;}
+
+/* 32px icons */
+.spritex32{background:url(../images/sm_spritex32.png); text-indent: -777777px;}
+
+.twitter32{background-position:0px 0px;}
+.twitter32:hover{background-position: 0px 32px;}
+
+.tweet32{background-position:-32px 0px;}
+.tweet32:hover{background-position: -32px 32px;}
+
+.flickr32{background-position:-64px 0px;}
+.flickr32:hover{background-position: -64px 32px;}
+
+.facebook32{background-position:-96px 0px;}
+.facebook32:hover{background-position: -96px 32px;}
+
+.youtube32{background-position:-129px 0px;}
+.youtube32:hover{background-position: -129px 32px;}
+
+.vimeo32{background-position:-161px 0px;}
+.vimeo32:hover{background-position: -161px 32px;}
+
+.google32{background-position:-193px 0px;}
+.google32:hover{background-position: -193px 32px;}
+
+.rss32{background-position:-226px 0px;}
+.rss32:hover{background-position: -226px 32px;}
+
+.email32{background-position:-258px 0px;}
+.email32:hover{background-position: -258px 32px;}
+
+h1, h2, h3, h4, h5, h6 { font-family: "Impact", "Arial Black", Arial, san-serif; color: #0473b5;}
