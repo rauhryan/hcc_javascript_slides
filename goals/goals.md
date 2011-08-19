@@ -7,16 +7,11 @@
   javascript function
 * Better understand jQuery.proxy() & Protoype's bind
 
-!SLIDE smaller
+!SLIDE center
 
-### Some helper functions I will be using
-    @@@ javascript
-    function assert(truth, message){
-      truth ? document.writeln("Pass: " + message) 
-            : document.writeln("Fail: " + message);
-    }
+#Credit where credit is due
 
-    function log(message){
-       document.writeln(message);
-    }
+### [ejohn.org/apps/learn](http://ejohn.org/apps/learn)
+
+
 
