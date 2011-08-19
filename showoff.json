@@ -6,5 +6,7 @@
     ,{ "section" : "about_me" }
     ,{ "section" : "goals" }
     ,{ "section" : "defining_functions" }
+    ,{ "section" : "context_functions" }
+    ,{ "section" : "method_overloading" }
   ]
 }
