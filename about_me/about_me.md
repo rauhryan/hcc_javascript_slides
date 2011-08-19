@@ -16,17 +16,6 @@
 ![dt_logo](dt_logo.png)
 we're hiring
 
-!SLIDE center bullets
-
-![p and p](pnp_logo.png)
-
-* Unity
-* Prism
-* Smart Client Software Factory
-* Web Client Software Factory
-* Enterprise Library
-* CSLA
-
 !SLIDE center
 
 ![alt net](alt_net.png)
