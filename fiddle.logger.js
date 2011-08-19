@@ -1,6 +1,16 @@
-function assert(truth, message){
-  truth ? document.writeln("Pass: " + message) : document.writeln("Fail: " + message);
+
+function assert(pass, msg){
+  var type = pass ? "PASS" : "FAIL";
+  jQuery("#results").append("<li class='" + type + "'><b>" + type + "</b> " + msg + "</li>");
 }
-function log(message){
-   document.writeln(message);
+function error(msg){
+  jQuery("#results").append("<li class='ERROR'><b>ERROR</b> " + msg + "</li>");
 }
+function log(){
+  var msg = "";
+  for ( var i = 0; i < arguments.length; i++ ) {
+    msg += " " + arguments[i];
+  }
+  jQuery("#results").append("<li class='LOG'><b>LOG</b> " + msg + "</li>");
+}
+
