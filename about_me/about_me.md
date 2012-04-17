@@ -24,6 +24,10 @@ we're hiring
 ![los techies](lostechies_logo.png)
 
 !SLIDE center
+
+![reddit](reddit.jpeg)
+
+!SLIDE center
 # Meet huboard
 ![huboard](huboard.png)
 
