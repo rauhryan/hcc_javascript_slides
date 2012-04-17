@@ -7,6 +7,8 @@
     ,{ "section" : "goals" }
     ,{ "section" : "defining_functions" }
     ,{ "section" : "context_functions" }
+    ,{ "section" : "instantiation" }
+    ,{ "section" : "arguments" }
     ,{ "section" : "method_overloading" }
   ]
 }

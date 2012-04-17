@@ -1,5 +1,5 @@
 
-Intro
+Intro                       et 
 
 About Me 
   * Contact stuff
@@ -19,4 +19,8 @@ What's a function?
     o Order of functions matter?
     o global vs window vs named
     o why named functions are so strange
+ 
+What is this?
+
+  * var fn = this
 

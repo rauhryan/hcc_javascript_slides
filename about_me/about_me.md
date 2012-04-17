@@ -8,7 +8,7 @@
 
 * @rauhr
 * [http://github.com/rauhryan](http://github.com/rauhryan)
-* [Blog - rauhryan.github.com](http://rauhryan.github.com)
+* [Blog - lostechies.com/ryanrauh](http://lostechies.com/ryanrauh)
 
 
 !SLIDE center handwritting
@@ -16,15 +16,16 @@
 ![dt_logo](dt_logo.png)
 we're hiring
 
+!SLIDE center 
+![i dont always](i_dont_always.png)
+
 !SLIDE center
 
-![alt net](alt_net.png)
-![code better](codebetter_logo.png)
-![devlicious](devilicious_logo.png)
 ![los techies](lostechies_logo.png)
 
 !SLIDE center
-![rss feed](rss_feed.png)
+# Meet huboard
+![huboard](huboard.png)
 
 
 !SLIDE

@@ -1,3 +1,10 @@
+!SLIDE center
+![tyler_durden](tyler_durden.jpg)
+
+!SLIDE center
+
+![do_you_speak_it](javascript_do_you_speak_it.jpg)
+
 !SLIDE incremental bullets
 
 # Goals
@@ -13,5 +20,22 @@
 
 ### [ejohn.org/apps/learn](http://ejohn.org/apps/learn)
 
+!SLIDE smaller
 
+# Prototype's bind
+
+    @@@ javascript
+    Function.prototype.bind = function(){ 
+      var fn = this, 
+          args = Array.prototype.slice.call(arguments), 
+          object = args.shift(); 
+      return function(){ 
+        return fn.apply(object, 
+          args.concat(Array.prototype.slice.call(arguments))); 
+      }; 
+    };
+
+!SLIDE center
+
+# We'll get back to this later
 
